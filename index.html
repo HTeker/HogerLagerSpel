@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>Hoger Lager</title>
+		<link rel="stylesheet" href="HogerLager.css">
+		<script src="HogerLager.js"></script>
+	
+	</head>
+	<body id="body">
+		
+		<div id="container">
+
+			<canvas id="mijnCanvas" width="1000" height="620">
+				Uw browser ondersteunt het Canvas-element niet.
+			</canvas>
+			<div id = "navigatie">
+				<button id="computerGooien" onclick="reageerOpComputerGooien();">Computer gooien</button>
+				
+				<div id = "verwachting">
+					<input type="radio" id="hogerVerwachten" name="verwachting" onclick="reageerOpHogerVerwachten();">Hoger</input><br>
+					<input type="radio" id="lagerVerwachten" name="verwachting" onclick="reageerOpLagerVerwachten();">Lager</input>
+				</div>
+				
+				<button id="inzetVerhogen" onclick="reageerOpInzetVerhogen();">Inzet verhogen</button>
+				<button id="inzetVerlagen" onclick="reageerOpInzetVerlagen()">Inzet verlagen</button>
+				<button id="spelerGooien" onclick="reageerOpSpelerGooien();">Speler gooien</button>
+			</div>
+			
+		</div>
+	
+	</body>
+
+</html>

@@ -1,0 +1,137 @@
+body
+{
+	background-image: url("bg.png");
+	font-family: Arial;
+}
+
+#container
+{
+	width: 1000px;
+	height: 620px;
+	background-color: #CF5C3F;
+	border: 4px solid #AD3A1D;
+	margin: 20px auto 20px auto;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: 0 0 20px 3px #888;
+}
+
+.titel
+{
+	color: whiteSmoke;
+	font-size: 60px;
+	margin: 2% auto -7% auto;
+	text-align: center;
+}
+
+#computerGooien
+{
+	width: 175px;
+	height: 110px;
+	background-color: #FFF;
+	border: 5px solid #999;
+	border-radius: 5%;
+	font-size: 30px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+#computerGooien:hover
+{
+	background-color: #CCC;
+	cursor: pointer;
+}
+
+#verwachting
+{
+	background-color: #CF5C3F;
+	position: absolute;
+	bottom: 25px;
+	left: 225px;
+	font-family: Arial;
+	font-size: 30px;
+	
+}
+
+#verwachting:active
+{
+	background-color: #CF5C3F;
+}
+
+#hogerVerwachten
+{
+
+}
+
+#hogerVerwachten:hover
+{
+
+}
+
+#lagerVerwachten
+{
+
+}
+
+#lagerVerwachten:hover
+{
+
+}
+
+#inzetVerhogen
+{
+	width: 175px;
+	height: 110px;
+	background-color: #FFF;
+	border: 5px solid #999;
+	border-radius: 5%;
+	font-size: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 600px;
+}
+
+#inzetVerhogen:hover
+{
+	background-color: #CCC;
+	cursor: pointer;
+}
+
+#inzetVerlagen
+{
+	width: 175px;
+	height: 110px;
+	background-color: #FFF;
+	border: 5px solid #999;
+	border-radius: 5%;
+	font-size: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 400px;
+}
+
+#inzetVerlagen:hover
+{
+	background-color: #CCC;
+	cursor: pointer;
+}
+
+#spelerGooien
+{
+	width: 175px;
+	height: 110px;
+	background-color: #FFF;
+	border: 5px solid #999;
+	border-radius: 5%;
+	font-size: 35px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+#spelerGooien:hover
+{
+	background-color: #CCC;
+	cursor: pointer;
+}
