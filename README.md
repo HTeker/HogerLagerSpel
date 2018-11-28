@@ -3,7 +3,7 @@
 Dit was een schoolproject die ik in **januari 2014** heb gedaan.
 
 ## Demo
-<a href="https://hogerlager.herokuapp.com/" target="_blank>Bekijk hier de demo</a>
+[Bekijk hier de demo](https://hogerlager.herokuapp.com/)
 
 ## Doel
 Het doel van deze applicatie is mensen de mogelijkheid geven om middels een fictieve saldo te gokken.
